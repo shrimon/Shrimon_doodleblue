@@ -185,13 +185,18 @@ color: #007bff !important;
     background-color:#007bff;
     border-radius:10px;
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 200px;
 }
 #about .btn a{
     color: black;
     text-decoration: none;
     font-size: 1em;
     font-weight: bold;
+    margin-left: 15px;
+}
+
+.btn btn-primary{
+  margin-right: 20px;
 }
 a{
     color:#fff;
@@ -276,8 +281,8 @@ a{
 
 h3{
     font-family: arial;
-    font-size: 40px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 300;
 }
 
 h1{
@@ -375,23 +380,12 @@ h2{
       margin-top: -32px;
       text-decoration: underline;
   }
-  h6{
-      margin-left:30px;
-      margin-top: -22px;
-  }
 i{
     float: right;
     margin-right: 20%;
     margin-top: 15px;
 }
 
-#Responsive-logo{
-    display: hidden;
-    width: 48px;
-    height: 48px;
-    background-size: 37px;
-    float:right ;
-}
 
 @media screen and (max-width: 758px){
     *{
@@ -434,4 +428,49 @@ i{
         display: inline-block;
     }
 
+}
+#services
+{
+    background-color:#007bff; 
+    background-size: cover;
+    background-position:center;
+    color:white;
+    background-attachment: fixed ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#services h1
+{
+    text-align: center;
+    color:white;
+    padding-bottom:10px;
+}
+/* #services h1::after
+{
+    content:'';
+    background: white;
+    display:block;
+    height:3px;
+    width: 170px;
+    margin:20 px auto 5px;
+} */
+.services
+{
+    margin-top: 40px;
+
+}
+
+.icon
+{
+    font-size: 30px;
+    margin:20px auto;
+    padding:20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.col-12 col-md-3 text-center{
+    font-size: 15px;
+    font-weight: 50px;
 }
