@@ -106,6 +106,8 @@ color: #007bff !important;
     margin-left: -50px;
     margin-right: -50px;
     margin-top: 34px;
+    background-position:center;
+    background-attachment:inherit;
 
 }
 
@@ -121,6 +123,7 @@ color: #007bff !important;
     font-weight: 300;
     color:#007bff;
     font-family: 'Courier New', Courier, monospace;
+    display: flex;
 }
 #about .btn{
     width: 40%;
@@ -238,7 +241,8 @@ h1{
 h2{
     font-family: arial;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 400;
+    margin-right: 20px;
 }
 
 .footer1-main-div{
@@ -413,4 +417,17 @@ i{
 .top-bar span{
     font-size: 20px;
     padding: 0px;
+}
+
+.icon-head
+{
+    padding-top: 5px;
+    font-size: 20px;
+    margin-left:60px ;
+    margin: 0 25px 5px 5px;
+    color: #f0f0f0;    
+}
+.icon-head:hover
+{
+    color:bisque !important;
 }
