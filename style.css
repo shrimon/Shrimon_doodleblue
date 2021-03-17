@@ -60,11 +60,10 @@ body{
 .nav-right{
     float: right;
 }
-
-h1
+ h1
 {
     text-align: left;
-    margin-left: 60px;
+    margin-left: 40px;
 }
 
 #nav-bar
@@ -107,7 +106,6 @@ color: #007bff !important;
     margin-right: -50px;
     margin-top: 34px;
     background-position:center center;
-    background-attachment:inherit;
 
 }
 
@@ -233,16 +231,18 @@ h3{
 
 h1{
     font-family: arial;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 400;
-    margin-right:20px;
+    left: 10%;
+    right: 50%;
 }
 
 h2{
     font-family: arial;
     font-size: 20px;
     font-weight: 400;
-    margin-right: 40px;
+    margin-right: 2px;
+    text-align: 20px 20px;
 }
 
 .footer1-main-div{
@@ -430,3 +430,16 @@ i{
 {
     color:bisque !important;
 }
+
+/* @media(max-width:600px){
+    #btnThree{
+        font-size: 10px;
+        right: 20%;
+        transform: translateX(110%);    
+    }
+
+    .bg-container{
+        background-size: cover;
+    }
+} */
+
