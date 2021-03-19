@@ -12,7 +12,6 @@ body{
     background-size: cover;
     background-position:center;
     color:white;
-    background-attachment: fixed ;
     padding-top: 50px;
     padding-bottom: 50px;
     font-family: sans-serif;
@@ -57,7 +56,39 @@ body{
     
     
 }
-.nav-right{
+#nav-bar
+{
+    position:sticky;
+    z-index: 10;
+    font-family: sans-serif;
+    background-color: white;
+}
+.navbar-brand 
+{
+    height: 40px;
+    padding-left: 30px;
+}
+
+.navbar-nav li
+{
+    padding: 0px;
+}
+.navbar-nav li a 
+{
+    float:center;
+    text-align: center;
+    
+}
+#nav-bar ul li a:hover
+{
+color:black !important;
+background-color:#007bff ;
+}
+.nav-bar 
+{
+    background: lightblue;
+}
+/* .nav-right{
     float: right;
 }
  h1
@@ -95,17 +126,17 @@ color: #007bff !important;
 .nav-bar 
 {
     background: lightblue;
-}
+} */
 
 
 .bg-container{
-    background-image: url("https://livedemo00.template-help.com/wt_60036_v1/images/slider-01.jpg");
+    background-image: url("slider-01\ \(1\).jpg");
     height:45vh;
     background-size: cover;
     margin-left: -50px;
     margin-right: -50px;
     margin-top: 34px;
-    background-position:center center;
+    
 
 }
 
@@ -228,13 +259,11 @@ h3{
     font-size: 15px;
     font-weight: 300;
 }
+@media (max-width: 600px){
+.h1{
 
-h1{
-    font-family: arial;
-    font-size: 20px;
-    font-weight: 400;
-    left: 10%;
-    right: 50%;
+   font-size: 5px;
+}
 }
 
 h2{
@@ -442,4 +471,17 @@ i{
         background-size: cover;
     }
 } */
+.col text-right{
 
+    margin-left: 12px;
+}
+
+
+ .carousel-caption{
+
+    position:relative;
+    left: 12px;
+    width: 50%;
+    top: 2%;
+ }
+ 
